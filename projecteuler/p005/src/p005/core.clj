@@ -1,6 +1,6 @@
 (ns p005.core)
 
-(comment defn inc-hash-value
+(defn inc-hash-value
  [hash key]
  (let [exists (contains? hash key)
        value (if exists
